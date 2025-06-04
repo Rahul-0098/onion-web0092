@@ -1,0 +1,47 @@
+body {
+  background-color: #000;
+  color: #0f0;
+  font-family: monospace;
+  margin: 0;
+  padding: 20px;
+}
+
+#loginPanel {
+  background: #111;
+  padding: 20px;
+  max-width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  border: 2px solid #0f0;
+}
+
+#loginPanel input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+}
+
+#mainApp {
+  padding: 20px;
+}
+
+#terminal {
+  background: #000;
+  border: 2px solid #0f0;
+  padding: 15px;
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+#bankPanel, #transferPanel {
+  background: #111;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #0f0;
+}
+
+input, button {
+  font-family: monospace;
+}
