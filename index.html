@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hacker Prank</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="loginPanel">
+  <h2>Enter Login Credentials</h2>
+  <input type="text" id="loginId" placeholder="Login ID" />
+  <input type="password" id="passkey" placeholder="Passkey" />
+  <button onclick="checkLogin()">Login</button>
+</div>
+
+<div id="mainApp" style="display:none;">
+  <div id="terminal">
+    <pre id="hackerText">Initializing Hack Console...</pre>
+  </div>
+
+  <div id="bankPanel">
+    <h3>Bank Account Details</h3>
+    <p>Account Holder: <strong>John Doe</strong></p>
+    <p>Account Number: <strong>1234 5678 9101 1121</strong></p>
+    <p>Bank: <strong>Fake National Bank</strong></p>
+  </div>
+
+  <div id="transferPanel">
+    <h3>Transfer Funds</h3>
+    <input type="text" placeholder="Recipient Account" />
+    <input type="text" placeholder="Amount" />
+    <button onclick="fakeTransfer()">Transfer</button>
+    <p id="transferStatus"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
